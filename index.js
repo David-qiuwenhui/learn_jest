@@ -1,4 +1,4 @@
-const add = require("./add.js");
+import { add } from "./add.js";
 
 const a = 1;
 const b = 1;

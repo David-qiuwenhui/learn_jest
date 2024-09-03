@@ -1,4 +1,4 @@
-const add = require("../add.js");
+import { add } from "../add.js";
 
 describe("Name of the group", () => {
   test("1 + 2 = 3", () => {
