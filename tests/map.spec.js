@@ -13,7 +13,7 @@ describe("callback function", () => {
     const arr = [1, 2, 3];
     map(arr, mockFn);
     expect(mockFn.mock.results[0].value).toBe(2);
-    expect(mockFn.mock.results[0].value).toBe(4);
-    expect(mockFn.mock.results[0].value).toBe(6);
+    expect(mockFn.mock.results[1].value).toBe(4);
+    expect(mockFn.mock.results[2].value).toBe(6);
   });
 });
